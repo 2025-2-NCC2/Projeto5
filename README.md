@@ -8,7 +8,7 @@
 
 ## Nome do Grupo
 
-## Integrantes: <a href="">Yuri Oliveira Santana</a>, <a href="">Mauricio Suster</a>, <a href="">Kaio</a>, <a href="">Gustavo</a></a>
+## Integrantes: <a href="">Yuri Oliveira Santana</a>, <a href="">Mauricio Suster</a>, <a href="">Kaio Inglez</a>, <a href="">Gustavo Diniz</a></a>
 
 ## Professores Orientadores: <a href="">Kátia Milani Lara Bossi</a>, <a href="">Cristina Machado Correa Leite</a>, <a href="">Jésus Gomes</a>, <a href="">David de Oliveira Lemes</a>, <a href="">Francisco de Souza Escobar</a>
 
@@ -16,15 +16,27 @@
 
 <p align="center">
 <img src="https://pix4free.org/assets/library/2021-01-20/originals/game.jpg" alt="NOME DO JOGO" border="0">
-  Game by <a href="http://www.nyphotographic.com/">Nick Youngson</a> <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a> <a href="http://pix4free.org/">Pix4free</a>
 </p>
 
 
-De um a dois parágrafos sobre o que é seu projeto e o que ele faz.
+A proposta deste projeto interdisciplinar é desenvolver uma aplicação web responsiva que 
+permita aos professores, mentores e alunos acompanharem e gerenciarem as atividades 
+realizadas pelas equipes participantes. A plataforma será utilizada em edições semestrais e 
+deverá contemplar o fluxo completo: desde o cadastro das equipes e atividades até a geração 
+de relatórios de desempenho
 <br><br>
-Meu projeto ajuda estudantes FECAP a configurarem seus githubs.
+Objetivo Geral:
+Desenvolver uma aplicação web completa que permita o gerenciamento das edições do 
+projeto Lideranças Empáticas, com controle de equipes, atividades, metas e resultados, 
+apoiando a coordenação e promovendo transparência no acompanhamento das ações
 <br><br>
-May the force be with you!
+
+## 🔗 Banco de Dados
+ 
+ 
+A modelagem do banco de dados está documentada em: 
+👉 [`/BD/README.md`](documentos/Entrega%201/BD/README.md)
+
 <br><br>
 
 ## 🛠 Estrutura de pastas
@@ -65,6 +77,7 @@ Há também 4 pastas que seguem da seguinte forma:
 Não há instalação!
 Encontre o index.html na pasta executáveis e execute-o como uma página WEB (através de algum browser).
 
+<br><br>
 ## 💻 Configuração para Desenvolvimento
 
 Descreva como instalar todas as dependências para desenvolvimento e como rodar um test-suite automatizado de algum tipo. Se necessário, faça isso para múltiplas plataformas.
@@ -78,7 +91,7 @@ make install
 npm test
 Coloque código do prompt de comnando se for necessário
 ```
-
+<br><br>
 ## 📋 Licença/License
 Utilize o link <https://chooser-beta.creativecommons.org/> para fazer uma licença CC BY 4.0.
 
