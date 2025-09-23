@@ -1,0 +1,13 @@
+# netlify.toml
+
+[build]
+  # Diretório base do projeto (onde está o package.json)
+  base = "frontend"
+
+  # Comando para build
+  command = "npm run build"
+
+  # Diretório de publicação do site (onde o Vite gera o build)
+  publish = "dist"
+
+
