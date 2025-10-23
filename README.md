@@ -14,9 +14,9 @@
 
 ## Descrição
 
-<p align="center">
-<img src="https://pix4free.org/assets/library/2021-01-20/originals/game.jpg" alt="NOME DO JOGO" border="0">
-</p>
+
+![](imagens/home.png)
+
 
 
 A proposta deste projeto interdisciplinar é desenvolver uma aplicação web responsiva que 
