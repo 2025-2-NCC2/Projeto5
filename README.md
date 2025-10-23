@@ -33,67 +33,95 @@ apoiando a coordenação e promovendo transparência no acompanhamento das açõ
 
 ## 🔗 Banco de Dados
  
- 
-A modelagem do banco de dados está documentada em: 
+Entrega 1: A modelagem do banco de dados está documentada em: 
 👉 [`/BD/README.md`](documentos/Entrega%201/BD/README.md)
 
-<br><br>
-
-## 🛠 Estrutura de pastas
-
--Raiz<br>
-|<br>
-|-->documentos<br>
-  &emsp;|-->antigos<br>
-  &emsp;|Documentação.docx<br>
-|-->executáveis<br>
-  &emsp;|-->windows<br>
-  &emsp;|-->android<br>
-  &emsp;|-->HTML<br>
-|-->imagens<br>
-|-->src<br>
-  &emsp;|-->Backend<br>
-  &emsp;|-->Frontend<br>
-|readme.md<br>
-
-A pasta raiz contem dois arquivos que devem ser alterados:
-
-<b>README.MD</b>: Arquivo que serve como guia e explicação geral sobre seu projeto. O mesmo que você está lendo agora.
-
-Há também 4 pastas que seguem da seguinte forma:
-
-<b>documentos</b>: Toda a documentação estará nesta pasta.
-
-<b>executáveis</b>: Binários e executáveis do projeto devem estar nesta pasta.
-
-<b>imagens</b>: Imagens do sistema
-
-<b>src</b>: Pasta que contém o código fonte.
-
-## 🛠 Instalação
-
-<b>HTML:</b>
-
-Não há instalação!
-Encontre o index.html na pasta executáveis e execute-o como uma página WEB (através de algum browser).
 
 <br><br>
-## 💻 Configuração para Desenvolvimento
+**Entrega 1 contempla:**
 
-Descreva como instalar todas as dependências para desenvolvimento e como rodar um test-suite automatizado de algum tipo. Se necessário, faça isso para múltiplas plataformas.
+* Backend funcional com **Node.js + Express + MySQL**
+* Frontend em **React** com layout responsivo (Flexbox/Grid)
+* CRUD básico de usuários (Create, Read, Update, Delete)
+* Integração parcial frontend ↔ backend via **Axios**
 
-Para abrir este projeto você necessita das seguintes ferramentas:
+---
 
--<a href="https://godotengine.org/download">GODOT</a>
+## 🛠 Tecnologias Utilizadas
 
-```sh
-make install
-npm test
-Coloque código do prompt de comnando se for necessário
+**Frontend:** React, React Router DOM, Recharts, Framer Motion, Bootstrap, Axios, Vite
+**Backend:** Node.js, Express, MySQL, MSSQL, CORS, dotenv
+**DevTools:** VSCode, Postman, Netlify (frontend), Render (backend)
+
+**Links de Deploy:**
+
+* Backend: [https://twosemestre.onrender.com/](https://twosemestre.onrender.com/)
+* Frontend: [https://warm-baklava-3e9f5f.netlify.app/](https://warm-baklava-3e9f5f.netlify.app/)
+
+---
+
+## 📂 Estrutura do Projeto
+
 ```
-<br><br>
-## 📋 Licença/License
-Utilize o link <https://chooser-beta.creativecommons.org/> para fazer uma licença CC BY 4.0.
+src/
+├── Entrega 1/
+│   ├── [Backend](src/Entrega%201/Backend)   -> API Node.js + Express
+│   └── [Frontend](src/Entrega%201/Frontend) -> App React                  
+└── README.md                                -> Este arquivo
+```
+
+> Clique nos links para acessar as pastas diretamente no repositório.
+
+---
+## 💻 Como Rodar o Projeto Localmente
+
+### Backend
+
+```bash
+cd src/Entrega\ 1/Backend
+npm install
+npm run dev
+```
+
+Servidor disponível em: `http://localhost:5000/api`
+
+> Configure o banco de dados em `db.js` antes de rodar.
+
+### Frontend
+
+```bash
+cd src/Entrega\ 1/Frontend
+npm install
+npm run dev
+```
+
+Frontend disponível em: `http://localhost:5173`
+
+---
+
+## 🔗 Integração
+
+* O frontend se comunica com a API usando **Axios**
+* CRUD de usuários implementado e testado via Postman
+
+---
+
+## 🌟 Próximas Extensões (Futuras Entregas)
+
+* Autenticação com **JWT**
+* Upload de imagens (Multer)
+* Dashboard com gráficos de desempenho
+* Relatórios em PDF
+* Sistema de notificações
+* Área de comunicação mentor ↔ equipe
+
+---
+## 📝 Observações
+
+* Código modularizado, legível e comentado
+* Layout responsivo (Flexbox/Grid)
+* Testado em navegadores modernos (Chrome, Edge, Firefox)
+* Deploy obrigatório: Frontend (Netlify), Backend (Railway/Render)
 
 ## 🎓 Referências
 
