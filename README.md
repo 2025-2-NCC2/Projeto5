@@ -33,8 +33,11 @@ apoiando a coordenação e promovendo transparência no acompanhamento das açõ
 
 ## 🔗 Banco de Dados
  
-Entrega 1: A modelagem do banco de dados está documentada em: 
+* Entrega 1: A modelagem do banco de dados está documentada em: 
 👉 [`/BD/README.md`](documentos/Entrega%201/BD/README.md)
+
+* Entrega 2: A implementação está documentada em: 
+👉 [`/BD/README.md`](documentos/Entrega%202/BD/README.md)
 
 
 <br><br>
