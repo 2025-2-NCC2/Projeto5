@@ -41,12 +41,17 @@ apoiando a coordenação e promovendo transparência no acompanhamento das açõ
 
 
 <br><br>
-**Entrega 1 contempla:**
 
 * Backend funcional com **Node.js + Express + MySQL**
 * Frontend em **React** com layout responsivo (Flexbox/Grid)
 * CRUD básico de usuários (Create, Read, Update, Delete)
 * Integração parcial frontend ↔ backend via **Axios**
+* Autenticação com **JWT**
+* Upload de imagens (Multer)
+* Dashboard com gráficos de desempenho
+* Relatórios em PDF
+* Sistema de notificações
+* Área de comunicação mentor ↔ equipe
 
 ---
 
@@ -136,7 +141,7 @@ apoiando a coordenação e promovendo transparência no acompanhamento das açõ
 ### Backend
 
 ```bash
-cd src/Entrega\ 1/Backend
+cd src/Entrega
 npm install
 npm run dev
 ```
@@ -148,7 +153,7 @@ Servidor disponível em: `http://localhost:5000/api`
 ### Frontend
 
 ```bash
-cd src/Entrega\ 1/Frontend
+cd src/Entrega
 npm install
 npm run dev
 ```
@@ -163,15 +168,6 @@ Frontend disponível em: `http://localhost:5173`
 * CRUD de usuários implementado e testado via Postman
 
 ---
-
-## 🌟 Próximas Extensões (Futuras Entregas)
-
-* Autenticação com **JWT**
-* Upload de imagens (Multer)
-* Dashboard com gráficos de desempenho
-* Relatórios em PDF
-* Sistema de notificações
-* Área de comunicação mentor ↔ equipe
 
 ---
 ## 📝 Observações
