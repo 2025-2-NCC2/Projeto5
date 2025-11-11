@@ -15,7 +15,7 @@
 ## Descrição
 
 
-![](imagens/home.png)
+![](imagens/home2.png)
 
 
 
@@ -64,14 +64,69 @@ apoiando a coordenação e promovendo transparência no acompanhamento das açõ
 ---
 
 ## 📂 Estrutura do Projeto
+```
+├── 📁 backend
+│ ├── 📁 src
+│ │ ├── 📄 app.js
+│ │ ├── 📄 db.js
+│ │ ├── 📄 db.test.js
+│ │ ├── 📄 routes.js
+│ │ └── 📄 server.js
+│ ├── ⚙️ package-lock.json
+│ └── ⚙️ package.json
+├── 📁 frontend
+│ ├── 📁 .netlify
+│ │ ├── 📁 blobs-serve
+│ │ ├── 📁 functions-internal
+│ │ ├── 📁 v1
+│ │ │ └── 📁 functions
+│ │ └── ⚙️ state.json
+│ ├── 📁 public
+│ │ ├── 📄 _redirects
+│ │ └── 🖼️ vite.svg
+│ ├── 📁 src
+│ │ ├── 📁 assets
+│ │ │ └── 🖼️ react.svg
+│ │ ├── 📁 context
+│ │ │ └── 📄 AuthContext.jsx
+│ │ ├── 📁 css
+│ │ │ ├── 🎨 App.css
+│ │ │ ├── 🎨 Doacoes.css
+│ │ │ ├── 🎨 Equipes.css
+│ │ │ ├── 🎨 Eventos.css
+│ │ │ ├── 🎨 Home.css
+│ │ │ ├── 🎨 HomePage.css
+│ │ │ ├── 🎨 Login.css
+│ │ │ ├── 🎨 NotFound.css
+│ │ │ ├── 🎨 TopMenu.css
+│ │ │ ├── 🎨 dashboard.css
+│ │ │ ├── 🎨 index.css
+│ │ │ └── 🎨 usuarios.css
+│ │ ├── 📄 App.jsx
+│ │ ├── 📄 Dashboard.jsx
+│ │ ├── 📄 Doacoes.jsx
+│ │ ├── 📄 Equipes.jsx
+│ │ ├── 📄 Eventos.jsx
+│ │ ├── 📄 HomePage.jsx
+│ │ ├── 📄 Login.jsx
+│ │ ├── 📄 NotFound.jsx
+│ │ ├── 📄 TopMenu.jsx
+│ │ ├── 📄 home.jsx
+│ │ ├── 📄 main.jsx
+│ │ └── 📄 usuarios.jsx
+│ ├── ⚙️ .gitignore
+│ ├── 📝 README.md
+│ ├── 📄 eslint.config.js
+│ ├── 🌐 index.html
+│ ├── ⚙️ netlify.toml
+│ ├── ⚙️ package-lock.json
+│ ├── ⚙️ package.json
+│ └── 📄 vite.config.js
+├── ⚙️ .gitignore
+└── 📝 README.md
+```
 
-```
-src/
-├── Entrega 1/
-│   ├── [Backend](src/Entrega%201/Backend)   -> API Node.js + Express
-│   └── [Frontend](src/Entrega%201/Frontend) -> App React                  
-└── README.md                                -> Este arquivo
-```
+---
 
 > Clique nos links para acessar as pastas diretamente no repositório.
 
